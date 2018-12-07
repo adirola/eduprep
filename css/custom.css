@@ -1,0 +1,32 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+.frontsubheading{
+    margin-bottom: 1.25rem;
+    font-family: "Tondo Bold",sans-serif;
+    line-height: 1.875rem;
+}
+.frontPageButton{
+    width: 30%;
+    margin-right: 1.875rem;
+    font-size: 2em;
+    margin-top:2%;
+}
+.frontPageHeading{
+    margin: .67em 0;
+    font-size: 60px;
+    font-size: 3.75rem !important;
+    font-weight: 400;
+}
+.counterHeader{
+    color:#565656;
+    font-weight: bold;
+}
+.counterImage{
+    width:100%;
+}
