@@ -30,3 +30,7 @@
 .counterImage{
     width:100%;
 }
+.darkbg{
+    background: #404242;
+    color: #fff;
+}
