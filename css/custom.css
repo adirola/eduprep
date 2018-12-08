@@ -42,3 +42,27 @@
     width:100%;
     display: inline-block;
 }
+.icon-box-margin{
+    margin-left:15%;
+}
+.social-content-links a{
+    font-size: 38px;
+    font-size: 2.375rem;
+    margin-right: .9375rem;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+.social-content-links a:hover {
+    color: #4D2079;
+}
+.icon-connect{
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
