@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="75px" viewBox="0 0 78 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>calculus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="126.794194%" y2="127.546954%" id="linearGradient-1">
+            <stop stop-color="#005DE8" offset="0%"></stop>
+            <stop stop-color="#E62899" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1585.000000, -1194.000000)">
+            <g id="calculus" transform="translate(1586.000000, 1195.000000)">
+                <ellipse id="Oval-21" fill="url(#linearGradient-1)" cx="41.9333333" cy="38.48" rx="35.0266667" ry="35.52"></ellipse>
+                <path d="M12.6414149,65.12 C-2.89824942,49.4594495 -2.89824942,24.0695535 12.6414149,8.4094586 C25.0732368,-4.11870842 45.2292206,-4.11870842 57.6610425,8.4094586 C67.6063192,18.43181 67.6063192,34.6815621 57.6610425,44.7039135 C49.7044594,52.7217034 36.8046298,52.7217034 28.8484989,44.7039135 C22.483142,38.2896815 22.483142,27.8895667 28.8484989,21.4753348 C33.9405131,16.3438581 42.1964403,16.3438581 47.2884545,21.4753348 C51.3617041,25.5806073 51.3617041,32.2363526 47.2884545,36.3416251 C44.0295835,39.625752 38.7458444,39.625752 35.4869734,36.3416251 C32.8796957,33.7145971 32.8796957,29.4543914 35.4869734,26.8273633" id="Page-1" stroke="#240F6E" stroke-width="2" transform="translate(33.053333, 32.066667) scale(-1, 1) rotate(90.000000) translate(-33.053333, -32.066667) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="74px" viewBox="0 0 84 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>course_material</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="126.794194%" y2="127.546954%" id="linearGradient-1">
+            <stop stop-color="#005DE8" offset="0%"></stop>
+            <stop stop-color="#E62899" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="83.25 61.6666667 76.0555556 61.6666667 76.0555556 0 83.25 0 83.25 61.6666667"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="course_material">
+            <g id="Page-1-Copy-3" transform="translate(0.000000, 6.166667)">
+                <path d="M2.56341324e-19,2 L2.56341324e-19,59.6666667 L-2.22044605e-16,59.6666667 C3.83744532e-15,60.7712362 0.8954305,61.6666667 2,61.6666667 L81.25,61.6666667 L81.25,61.6666667 C82.3545695,61.6666667 83.25,60.7712362 83.25,59.6666667 L83.25,2 L83.25,2 C83.25,0.8954305 82.3545695,9.86597827e-15 81.25,2.22044605e-15 L2,8.19757895e-15 L2,8.43769499e-15 C0.8954305,8.64060111e-15 3.0881846e-16,0.8954305 4.4408921e-16,2 Z" id="Clip-2" fill="url(#linearGradient-1)"></path>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-15"></g>
+            </g>
+            <rect id="Rectangle-2-Copy-3" stroke="#240F6E" stroke-width="2" x="64.7222222" y="1" width="13.4166667" height="72" rx="2"></rect>
+            <g id="Group-26" transform="translate(4.111111, 0.000000)" stroke="#240F6E" stroke-width="2">
+                <rect id="Rectangle-2-Copy-3" x="40.3981481" y="1" width="13.4166667" height="71.8124064" rx="2"></rect>
+                <rect id="Rectangle-2-Copy-3" x="20.1851852" y="1" width="13.4166667" height="71.8124064" rx="2"></rect>
+                <rect id="Rectangle-2-Copy-3" x="1" y="1" width="13.4166667" height="72" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

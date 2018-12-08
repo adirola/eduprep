@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="75px" viewBox="0 0 70 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>live_instruction</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-23.5%" y="-20.6%" width="147.1%" height="147.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.141176471   0 0 0 0 0.0588235294   0 0 0 0 0.431372549  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="-84.4676236%" x2="100%" y2="348.321336%" id="linearGradient-2">
+            <stop stop-color="#005DE8" offset="0%"></stop>
+            <stop stop-color="#E62899" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="live_instruction" transform="translate(1.000000, 1.000000)">
+            <g id="solid-gradient" filter="url(#filter-1)" transform="translate(3.000000, 3.000000)"></g>
+            <g id="outline" transform="translate(20.000000, 20.000000)" fill="url(#linearGradient-2)">
+                <path d="M15.5050739,5.62679426 C10.8650013,5.62679426 7.10321258,9.38858297 7.10321258,14.0286556 C7.10321258,18.6687281 10.8650013,22.4305169 15.5050739,22.4305169 C20.1451465,22.4305169 23.9069352,18.6687281 23.9069352,14.0286556 C23.9069352,9.38858297 20.1451465,5.62679426 15.5050739,5.62679426" id="Fill-6"></path>
+            </g>
+            <path d="M19.5508652,74 C19.128178,74 18.8628743,73.5221416 19.0742179,73.1393852 L35.0239148,44.2870673 C35.2352584,43.9043109 35.7647416,43.9043109 35.9760852,44.2870673 L51.9257821,73.1393852 C52.1371257,73.5221416 51.871822,74 51.4491348,74 L19.5508652,74 Z" id="Fill-8" fill="url(#linearGradient-2)"></path>
+            <path d="M34,0 C15.2222607,0 0,15.2232756 0,33.9993462 C0,52.778032 15.2222607,68 34,68 C52.7777393,68 68,52.778032 68,33.9993462 C68,15.2232756 52.7777393,0 34,0" id="Fill-1" stroke="#240F6E" stroke-width="2"></path>
+            <path d="M34.5,13 C22.6258391,13 13,22.8499541 13,35.0005769 C13,47.1511997 22.6258391,57 34.5,57 C46.3741609,57 56,47.1511997 56,35.0005769 C56,22.8499541 46.3741609,13 34.5,13" id="Fill-4" stroke="#240F6E" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>
