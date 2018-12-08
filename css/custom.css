@@ -29,6 +29,7 @@
 }
 .counterImage{
     width:100%;
+    display: inline;
 }
 .darkbg{
     background: #404242;
@@ -36,4 +37,8 @@
 }
 .specialColor{
     color:#fff !important;
+}
+.icon-set{
+    width:100%;
+    display: inline-block;
 }
