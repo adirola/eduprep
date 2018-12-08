@@ -66,3 +66,12 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
+.text-box:hover ul li {
+    color: #333 !important;
+}
+.headingMargin{
+    margin-bottom:5% !important;
+}
+.marginClass{
+    margin-bottom:15% !important;
+}
