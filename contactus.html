@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head> <meta name="viewport" content="width=device-width, initial-scale=1" /> <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <meta name="author" content="INSPIRO" /> <meta name="description" content="Themeforest Template Polo"> <!-- Document title --> <title>Eduraaga</title> <!-- Stylesheets & Fonts --> <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800" rel="stylesheet" type="text/css" /> <link href="css/plugins.css" rel="stylesheet"> <link href="css/style.css" rel="stylesheet"> <link href="css/responsive.css" rel="stylesheet"><link href="css/custom.css" rel="stylesheet"> 
+
+    <script>
+            function objectifyForm(formArray) {//serialize data function
+
+                var returnArray = {};
+                for (var i = 0; i < formArray.length; i++){
+                returnArray[formArray[i]['name']] = formArray[i]['value'];
+                }
+                return returnArray;
+
+                
+            };
+       
+            function submitform(form){
+                form1 = document.getElementById('myForm');
+                var data1 = objectifyForm(form1);
+                $.ajax({
+                    url: "http://localhost:9000/api/smartHome",
+                    type: "POST",
+                    data: data1,
+                    success : function (result){
+                        alert(result);
+                    },
+                    error: function(){
+                        console.log('error happened');
+                    }
+                })
+                
+                
+            }
+    </script>
+
+</head>
+
+<body>	<!-- Wrapper -->
+	<div id="wrapper">
+
+		 <!-- Topbar -->
+
+        <!-- end: Topbar -->
+
+        <!-- Header -->
+        <header id="header" class="header-transparent dark header-logo-center">
+                <div id="header-wrap">
+                    <div class="container" id="headerButton">
+                        <!--Logo-->
+                        <div id="logo" class="specialButton">
+                            <a class="btn btn-dark btn-lg " style="display:none !important;">Give as a Gift</a>
+                            <a href="index.html" class="logo" data-dark-logo="images/Eduraaga_logo.png">
+                                <img src="images/Eduraaga_logo_dark.png" alt="Eduraaga" style="width:10%;" class="logoclass">
+                            </a>
+                            <a class="btn btn-danger btn-lg" style="display:none !important;">GET all-access</a>
+                        </div>
+
+
+                        <!--End: Logo-->
+
+                        <!--Top Search Form-->
+                        <div id="top-search">
+                            <form action="search-results-page.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Start typing & press  &quot;Enter&quot;">
+                            </form>
+                        </div>
+                        <!--end: Top Search Form-->
+
+                        <!--Header Extras-->
+
+                        <!--end: Header Extras-->
+
+                        <!--Navigation Resposnive Trigger-->
+                        <div id="mainMenu-trigger">
+                            <button class="lines-button x"> <span class="lines"></span> </button>
+                        </div>
+                        <!--end: Navigation Resposnive Trigger-->
+
+                        <!--Navigation-->
+                        <div id="mainMenu" class="light">
+                                <div class="container">
+                                    <nav>
+                                        <!--Left menu-->
+                                        <ul style="width: 50%;">
+                                                <li>
+                                                        <a href="https://www.livetutoredu.com" target="_blank" class="">
+                                                            <img src="images/LTEduLogo_2.png" alt="Eduraaga" style="width:35%;" class="">
+                                                        </a>
+                                                </li>
+                                            </ul>
+                                        <!--Right Menu-->
+                                        <ul style="color: #fff !important">
+                                            <li class=" "> <a href="aboutus.html" style="color: #fff !important">About Us</a>
+                                                </li>
+
+                                            <li class=" "> <a href="curriculum.html" style="color: #fff !important">Curriculum</a>
+
+                                            </li>
+                                        </ul>
+
+                                    </nav>
+                                </div>
+                            </div>
+                        <!--end: Navigation-->
+                    </div>
+                </div>
+            </header>
+        <!-- end: Header -->
+
+        <!-- Page title -->
+        <section id="page-title" data-parallax-image="images/wallpaper2.jpg">
+            <div class="container">
+                <div class="page-title">
+                    <h1>Contact Us</h1>
+                    </div>
+
+            </div>
+        </section>
+        <!-- end: Page title -->
+
+        <!-- CONTENT -->
+        <section class="sectionblack">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-uppercase" style="color:#fff">Get In Touch</h3>
+                        <div class="m-t-30">
+                                <form class="form" id="myForm">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" aria-required="true" name="name" id="name" class="form-control required name" placeholder="Enter your Name">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="email">Email</label>
+                                            <input type="email" aria-required="true" name="email" class="form-control required email" placeholder="Enter your Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-sm-12">
+                                            <label for="subject">Your Subject</label>
+                                            <input type="text" name="subject" class="form-control required" placeholder="Subject...">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea type="text" name="message" rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
+                                    </div>
+    
+                                     
+                                    
+                                    
+                                    <button class="btn btn-default" type="button" onclick="submitform(myForm)" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                                </form>
+                                
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h3 class="text-uppercase" style="color:#fff;">Address & Map</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <address>
+                                  <strong>California Office.</strong><br>
+                                  608 Main Street,<br>
+                                  Pleasanton, CA 94566, USA<br>
+                                  <abbr title="Phone">P:</abbr> +1 (925) 718 5280
+                                  </address>
+                            </div>
+                            <div class="col-md-4">
+                                <address>
+                                  <strong>Jersey Office</strong><br>
+                                  11, Nestlewood Way,<br>
+                                  Princeton, New Jersey – 08540, USA<br>
+                                  <abbr title="Phone">P:</abbr> +1 (925) 718 5280
+                                  </address>
+                            </div>
+                            <div class="col-md-4">
+                                    <address>
+                                      <strong>India Office</strong><br>
+                                      Wavoo Bldg, No.A51,<br>
+                                      Anna Nagar East, Chennai - 600 102, India<br>
+                                      <abbr title="Phone">P:</abbr> +91 44 6669 2200
+                                      </address>
+                                </div>
+                        </div>
+
+
+                        <!-- Google map sensor -->
+                         
+                        <!-- Google map sensor -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: CONTENT -->
+
+        <!-- Footer -->
+        <footer id="footer" class="footer-dark">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Footer widget area 1 -->
+                                <div class="widget clearfix widget-contact-us" style="background-image: url('images/world-map-dark.png'); background-position: 50% 20px; background-repeat: no-repeat">
+                                    <h4>About EduRaaga</h4>
+                                <ul class="list-icon">
+                                    <li><i class="fa fa-map-marker"></i>USA: 608 Main Street,
+                                        <br>Pleasanton, CA 94566 <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg" alt="United States of America Flag" style="width: 8%;"></li>
+                                    <li><i class="fa fa-map-marker"></i>USA: 11, Nestlewood Way,
+                                        <br>Princeton, New Jersey – 08540 <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/us.svg" alt="United States of America Flag" style="width: 8%;"></li>
+                                    <li><i class="fa fa-map-marker"></i>India: Sucons Sivagami Square 3rd Floor,
+                                        <br>147, G.N Road, T. Nagar, Chennai 600 017 <img class="flag" src="https://lipis.github.io/flag-icon-css/flags/4x3/in.svg" alt="India Flag" style = "width: 8%;"></li>
+                                    <li><i class="fa fa-phone"></i>+1 (925) 718 5280, +91 44 6669 2200 </li>
+                                    <li><i class="fa fa-envelope"></i><a href="iinfo@livetutoredu.com">info@livetutoredu.com</a>
+                                                                        </li>
+                                </ul>
+                                    <!-- Social icons -->
+                                    <div class="social-icons social-icons-border float-left m-t-20">
+                                        <ul>
+                                            <!-- <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li> -->
+                                            <li class="social-facebook"><a href="https://www.facebook.com/EduRaaga/"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="social-linkedin"><a href="https://www.linkedin.com/company/livetutoredu/"><i class="fa fa-linkedin"></i></a></li>
+                                            <!-- <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            <li class="social-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                            <li class="social-pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                            <li class="social-gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+                                        </ul>
+                                    </div>
+                                    <!-- end: Social icons -->
+                                </div>
+                                <!-- end: Footer widget area 1 -->
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                            <div class="widget">
+                                                                    <h4>Quick Links</h4>
+                                                                    <ul class="list-icon list-icon-arrow">
+                                                                        <li><a href="#allclasses">Browse Classes</a></li>
+                                                                        <li><a href="curriculum.html">Curriculum</a></li>
+                                                                        <li><a href="aboutus.html">About Us</a></li>
+                                                                        <li><a href="privacy.html">Privacy</a></li>
+                                                                        <li><a href="contactus.html">Contact Us</a></li>
+
+                                                                    </ul>
+                                </div>
+
+                                                    </div>
+                            <div class="col-md-3">
+                                <!-- Footer widget area 2 -->
+                                <div class="widget">
+                                    <h4>SAFE & SOUND</h4>
+                                    <p>Your Celebrity led classes purchase is secure.</p>
+                                    <br><br>
+                                    <img alt="" id="ssl-badge" src="images/ssl.svg">
+                                </div>
+                                <!-- end: Footer widget area 2 -->
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                            <!-- Footer widget area 2 -->
+                                                            <div class="widget">
+                                                                <h4>Powered By</h4>
+                                                                <p>EduRaaga is powered and Supported by LiveTutorEdu.</p>
+                                                                <br><br>
+                                                                <img alt="" style="width:90%;" src="images/LTEduLogo_2.png">
+                                                            </div>
+                                                            <!-- end: Footer widget area 2 -->
+                                                                                </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-content">
+                    <div class="container">
+                            <div class="copyright-text text-center">&copy; Copyrights 2018 EduRaaga - BY <a href="http://www.livetutoredu.com" target="_blank"> Live Tutor Edu Solutions</a> - All Rights Reserved
+                            </div>
+                    </div>
+                </div>
+            </footer>
+  <!-- end: Footer -->
+
+    </div>    <!-- end: Wrapper -->
+
+    <!-- Go to top button -->
+    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
+
+
+<!--Plugins-->
+ <script src="js/jquery.js"></script>
+ <script src="js/plugins.js"></script>
+
+<!--Template functions-->
+ <script src="js/functions.js"></script>
+</body>
+
+</html>
